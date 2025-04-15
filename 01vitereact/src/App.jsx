@@ -1,11 +1,14 @@
 
-import {Chai} from './chai.jsx'
+import Chai from './chai.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const username = ' chai aur code'
 
   return (
+    <>
      <Chai />
+     <h1> {username} </h1>
+     </>
   );
 }
 
