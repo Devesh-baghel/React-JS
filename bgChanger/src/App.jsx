@@ -7,7 +7,7 @@ const [color,setColor]= useState("olive");
 
   return (
     <>
-     <div className="size-full h-screen duration-200"
+     <div className="size-full h-screen duration-400"
      style={{backgroundColor:color}}
      >
        <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
@@ -24,6 +24,10 @@ const [color,setColor]= useState("olive");
          onClick={()=>setColor("green")} 
          className='outline-none px-4 py-1 rounded-full text-white shadow-lg'
          style={{backgroundColor:"green"}}>Green</button>
+          <button 
+         onClick={()=>setColor("yellow")} 
+         className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
+         style={{backgroundColor:"Yellow"}}>Yellow</button>
        
         </div>
        </div>
