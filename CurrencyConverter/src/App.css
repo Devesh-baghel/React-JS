@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+#main{
+    @apply flex flex-col items-center justify-center h-screen bg-gray-100;
+   height: full;
+   width: 100%;
+   background-image: url('https://www.investopedia.com/thmb/ASStR21rMu9-9_nj1x07H83zbUs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-stock-market-data-on-digital-display-1058454392-c48e2501742f4c21ad57c25d6a087bd0.jpg');
+    background-size: cover;
+    background-position: center;
+   
+}
+#outer{
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem; 
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+    padding: 2rem; /* Equivalent to p-8 */
+    
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    
+    
+}   
+#inner form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+#swap button{
+   position: absolute;
+   border: 3px solid white;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+     z-index: 3;
+    padding: 1px 7px;
+    top: 68px;
+    left: 150px;
+    cursor: pointer;
+}
+#inner-1{
+   margin-bottom: 5px;
+}
+#inner-2{
+    width: 100%;
+    margin-bottom: 5px;
+}
+ 
+#submitbtn{
+    padding: 5px 110px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+   
+}
