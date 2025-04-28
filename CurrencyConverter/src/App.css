@@ -1,7 +1,12 @@
 @import "tailwindcss";
 
 #main{
-    @apply flex flex-col items-center justify-center h-screen bg-gray-100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
    height: full;
    width: 100%;
    background-image: url('https://www.investopedia.com/thmb/ASStR21rMu9-9_nj1x07H83zbUs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-stock-market-data-on-digital-display-1058454392-c48e2501742f4c21ad57c25d6a087bd0.jpg');
@@ -22,7 +27,7 @@
     padding: 2rem; /* Equivalent to p-8 */
     
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
     
     
 }   
